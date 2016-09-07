@@ -100,10 +100,11 @@ namespace Test_wizard
 
                 WizardPage page = new WizardPage();
                 page.Text = page_index.ToString();
+                page.AllowNext = true;
                 wizardControl.Pages.Insert(page_index,page);
-                
                 //wizardControl.PreviousPage();
-
+                if (page_index == 1 || page_index == 2)
+                    wizardControl.FinishButtonText = "Next";
                 //wizardControl.RestartPages();
                 //wizardControl.NextPage(page);
                 
