@@ -1,0 +1,10 @@
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\bin\Debug\Test_wizard.exe
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\bin\Debug\Test_wizard.pdb
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\bin\Debug\AeroWizard.dll
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\bin\Debug\AeroWizard.xml
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\obj\Debug\Test_wizard.csprojResolveAssemblyReference.cache
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\obj\Debug\Test_wizard.Properties.Resources.resources
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\obj\Debug\Test_wizard.MainWizard.resources
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\obj\Debug\Test_wizard.csproj.GenerateResource.Cache
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\obj\Debug\Test_wizard.exe
+C:\Users\DASergeeva\Documents\Test_wizard-master\Test_wizard\obj\Debug\Test_wizard.pdb
