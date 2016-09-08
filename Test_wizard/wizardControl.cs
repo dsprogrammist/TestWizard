@@ -107,8 +107,6 @@ namespace Test_wizard
                 
                 //wizardControl.RestartPages();
                 //wizardControl.NextPage(wizardControl.Pages[page_index]);
-
-
             }
             else
             {
