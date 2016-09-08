@@ -63,14 +63,14 @@ namespace Test_wizard
             {
 
                 page_index++;
-                if ((page_index>=3)&&(page_index%2==1))
-                    a = true;
-                if ((page_index >= 4)&&(page_index%2==0) && a)
-                {
-                    page_index = page_index - 1;
-                    a = false;
-                }
-                    
+                //if ((page_index >= 3) && (page_index % 2 == 1))
+                //    a = true;
+                //if ((page_index >= 4) && (page_index % 2 == 0) && a)
+                //{
+                //    page_index = page_index - 1;
+                //    a = false;
+                //}
+
                 wizardControl.Pages[page_index].Text = page_index.ToString();
                 wizardControl.Pages[page_index].Commit += wizardPage_Commit;
                 //wizardControl.Pages[page_index].Initialize += wizardPage_Initialize;
@@ -100,14 +100,14 @@ namespace Test_wizard
 
                 WizardPage page = new WizardPage();
                 page.Text = page_index.ToString();
-                page.AllowNext = true;
                 wizardControl.Pages.Insert(page_index,page);
+                wizardControl.Pages.Add(page);
+
                 //wizardControl.PreviousPage();
-                if (page_index == 1 || page_index == 2)
-                    wizardControl.FinishButtonText = "Next";
-                //wizardControl.RestartPages();
-                //wizardControl.NextPage(page);
                 
+                //wizardControl.RestartPages();
+                //wizardControl.NextPage(wizardControl.Pages[page_index]);
+
 
             }
             else
