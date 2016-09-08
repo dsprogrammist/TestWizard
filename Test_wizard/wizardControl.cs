@@ -101,7 +101,7 @@ namespace Test_wizard
                 WizardPage page = new WizardPage();
                 page.Text = page_index.ToString();
                 wizardControl.Pages.Insert(page_index,page);
-                wizardControl.Pages.Add(page);
+                wizardControl.Pages.Add(wizardControl.Pages[page_index+1]);
 
                 //wizardControl.PreviousPage();
                 
